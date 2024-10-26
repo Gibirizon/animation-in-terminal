@@ -1,0 +1,23 @@
+AnimationScreen {
+    height: 100%;
+    width: 100%;
+}
+
+Frame {
+    max-width: 64;
+    max-height: 32;
+}
+
+Container {
+    align: center middle;
+    height: 40;
+    width: 100%;
+}
+
+TitleWidget {
+    margin-top: 3;
+    text-align: center;
+    min-width: 64;
+    height: auto;
+    color: $accent-darken-2;
+}
