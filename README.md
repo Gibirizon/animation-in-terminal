@@ -79,6 +79,12 @@ python3 -m venv venv
 source venv/bin/activate
 ```
 
+4. Zainstaluj wymagane pakiety:
+
+```bash
+pip install -r requirements.txt
+```
+
 ## Instrukcja użytkownika
 
 ### Uruchomienie gry
