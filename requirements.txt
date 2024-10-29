@@ -1,5 +1,5 @@
 pyfiglet==1.0.2
-pygame_ce==2.4.1
+pygame-ce==2.5.1
 rich==13.9.3
 rich_pixels==3.0.1
-textual==0.85.0
+textual==0.85.1

@@ -15,7 +15,7 @@ logger = logging.getLogger(__name__)
 class AnimationScreen(Screen):
     """Main screen containing the animation and title."""
 
-    CSS_PATH = "screen.tcss"
+    CSS_PATH = "../styles/screen.tcss"
     BINDINGS = [
         ("space", "toggle_play_pause", "Play/Pause"),
         ("ctrl+q", "quit", "Quit"),

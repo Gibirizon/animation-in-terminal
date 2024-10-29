@@ -1,0 +1,99 @@
+2024-10-26 17:06:36 - animation.utils.sound - INFO - Sound system initialized
+2024-10-26 17:06:36 - animation.app - INFO - Application started
+2024-10-26 17:06:36 - animation.app - INFO - Image path: /home/wojtek/Dokumenty/GitHub/animation_in_terminal/animation/resources/frames
+2024-10-26 17:06:36 - animation.components.frame - INFO - Loaded 10 frames from /home/wojtek/Dokumenty/GitHub/animation_in_terminal/animation/resources/frames
+2024-10-26 17:06:36 - animation.components.frame - INFO - Animation started
+2024-10-26 17:06:43 - animation.utils.sound - INFO - Sound system cleaned up
+2024-10-26 17:06:43 - animation.app - INFO - Application closed
+2024-10-26 17:06:54 - animation.utils.sound - INFO - Sound system initialized
+2024-10-26 17:06:54 - animation.app - INFO - Application started
+2024-10-26 17:06:54 - animation.app - INFO - Image path: /home/wojtek/Dokumenty/GitHub/animation_in_terminal/animation/resources/frames
+2024-10-26 17:06:54 - animation.components.frame - INFO - Loaded 10 frames from /home/wojtek/Dokumenty/GitHub/animation_in_terminal/animation/resources/frames
+2024-10-26 17:06:54 - animation.components.frame - INFO - Animation started
+2024-10-26 17:33:03 - animation.components.screen - INFO - Toggling play/pause
+2024-10-26 17:33:03 - animation.components.frame - INFO - Animation paused
+2024-10-26 17:33:05 - animation.components.screen - INFO - Toggling play/pause
+2024-10-26 17:33:05 - animation.components.frame - INFO - Animation resumed
+2024-10-26 17:33:10 - animation.components.screen - INFO - Toggling play/pause
+2024-10-26 17:33:10 - animation.components.frame - INFO - Animation paused
+2024-10-26 17:33:11 - animation.components.screen - INFO - Toggling play/pause
+2024-10-26 17:33:11 - animation.components.frame - INFO - Animation resumed
+2024-10-26 17:33:30 - animation.components.screen - INFO - Toggling play/pause
+2024-10-26 17:33:30 - animation.components.frame - INFO - Animation paused
+2024-10-26 17:33:32 - animation.components.screen - INFO - Toggling play/pause
+2024-10-26 17:33:32 - animation.components.frame - INFO - Animation resumed
+2024-10-26 17:34:10 - animation.utils.sound - INFO - Sound system cleaned up
+2024-10-26 17:34:10 - animation.app - INFO - Application closed
+2024-10-26 17:42:03 - animation.utils.sound - INFO - Sound system initialized
+2024-10-26 17:42:03 - animation.app - INFO - Application started
+2024-10-26 17:42:03 - animation.app - INFO - Image path: /home/wojtek/Dokumenty/GitHub/animation_in_terminal/animation/resources/frames
+2024-10-26 17:42:03 - animation.components.frame - INFO - Loaded 10 frames from /home/wojtek/Dokumenty/GitHub/animation_in_terminal/animation/resources/frames
+2024-10-26 17:42:03 - animation.components.frame - INFO - Animation started
+2024-10-26 17:42:50 - animation.utils.sound - INFO - Sound system cleaned up
+2024-10-26 17:42:50 - animation.app - INFO - Application closed
+2024-10-26 18:32:59 - animation.utils.sound - INFO - Sound system initialized
+2024-10-26 18:32:59 - animation.app - INFO - Application started
+2024-10-26 18:32:59 - animation.app - INFO - Image path: /home/wojtek/Dokumenty/GitHub/animation_in_terminal/animation/resources/frames
+2024-10-26 18:32:59 - animation.components.frame - INFO - Loaded 10 frames from /home/wojtek/Dokumenty/GitHub/animation_in_terminal/animation/resources/frames
+2024-10-26 18:32:59 - animation.components.frame - INFO - Animation started
+2024-10-26 18:33:10 - animation.utils.sound - INFO - Sound system cleaned up
+2024-10-26 18:33:10 - animation.app - INFO - Application closed
+2024-10-27 08:58:13 - animation.utils.sound - INFO - Sound system initialized
+2024-10-27 08:58:13 - animation.app - INFO - Application started
+2024-10-27 08:58:13 - animation.app - INFO - Image path: /home/wojtek/Dokumenty/GitHub/animation_in_terminal/animation/resources/frames
+2024-10-27 08:58:13 - animation.components.frame - INFO - Loaded 10 frames from /home/wojtek/Dokumenty/GitHub/animation_in_terminal/animation/resources/frames
+2024-10-27 08:58:13 - animation.components.frame - INFO - Animation started
+2024-10-27 08:58:15 - animation.components.screen - INFO - Toggling play/pause
+2024-10-27 08:58:15 - animation.components.frame - INFO - Animation paused
+2024-10-27 08:58:15 - animation.components.screen - INFO - Toggling play/pause
+2024-10-27 08:58:15 - animation.components.frame - INFO - Animation resumed
+2024-10-27 08:58:15 - animation.components.screen - INFO - Toggling play/pause
+2024-10-27 08:58:15 - animation.components.frame - INFO - Animation paused
+2024-10-27 08:58:16 - animation.components.screen - INFO - Toggling play/pause
+2024-10-27 08:58:16 - animation.components.frame - INFO - Animation resumed
+2024-10-27 08:58:16 - animation.components.screen - INFO - Toggling play/pause
+2024-10-27 08:58:16 - animation.components.frame - INFO - Animation paused
+2024-10-27 08:58:16 - animation.components.screen - INFO - Toggling play/pause
+2024-10-27 08:58:16 - animation.components.frame - INFO - Animation resumed
+2024-10-27 08:58:16 - animation.components.screen - INFO - Toggling play/pause
+2024-10-27 08:58:16 - animation.components.frame - INFO - Animation paused
+2024-10-27 08:58:17 - animation.components.screen - INFO - Toggling play/pause
+2024-10-27 08:58:17 - animation.components.frame - INFO - Animation resumed
+2024-10-27 08:58:17 - animation.components.screen - INFO - Toggling play/pause
+2024-10-27 08:58:17 - animation.components.frame - INFO - Animation paused
+2024-10-27 08:58:17 - animation.components.screen - INFO - Toggling play/pause
+2024-10-27 08:58:17 - animation.components.frame - INFO - Animation resumed
+2024-10-27 08:58:17 - animation.components.screen - INFO - Toggling play/pause
+2024-10-27 08:58:17 - animation.components.frame - INFO - Animation paused
+2024-10-27 08:58:18 - animation.components.screen - INFO - Toggling play/pause
+2024-10-27 08:58:18 - animation.components.frame - INFO - Animation resumed
+2024-10-27 08:58:20 - animation.utils.sound - INFO - Sound system cleaned up
+2024-10-27 08:58:20 - animation.app - INFO - Application closed
+2024-10-27 09:37:42 - animation.utils.sound - INFO - Sound system initialized
+2024-10-27 09:37:42 - animation.app - INFO - Application started
+2024-10-27 09:37:42 - animation.app - INFO - Image path: /home/wojtek/Dokumenty/GitHub/animation_in_terminal/animation/resources/frames
+2024-10-27 09:37:42 - animation.components.frame - INFO - Loaded 10 frames from /home/wojtek/Dokumenty/GitHub/animation_in_terminal/animation/resources/frames
+2024-10-27 09:37:42 - animation.components.frame - INFO - Animation started
+2024-10-27 09:37:43 - animation.utils.sound - INFO - Sound system cleaned up
+2024-10-27 09:37:43 - animation.app - INFO - Application closed
+2024-10-29 18:27:33 - animation.utils.sound - INFO - Sound system initialized
+2024-10-29 18:27:33 - animation.app - INFO - Application started
+2024-10-29 18:27:33 - animation.app - INFO - Image path: /home/wojtek/Dokumenty/GitHub/animation_in_terminal/assets/frames
+2024-10-29 18:27:33 - animation.components.frame - INFO - Loaded 10 frames from /home/wojtek/Dokumenty/GitHub/animation_in_terminal/assets/frames
+2024-10-29 18:27:33 - animation.components.frame - INFO - Animation started
+2024-10-29 18:27:34 - animation.utils.sound - INFO - Sound system cleaned up
+2024-10-29 18:27:34 - animation.app - INFO - Application closed
+2024-10-29 18:27:36 - animation.utils.sound - INFO - Sound system initialized
+2024-10-29 18:27:36 - src.animation.app - INFO - Application started
+2024-10-29 18:27:36 - src.animation.app - INFO - Image path: /home/wojtek/Dokumenty/GitHub/animation_in_terminal/assets/frames
+2024-10-29 18:27:36 - animation.components.frame - INFO - Loaded 10 frames from /home/wojtek/Dokumenty/GitHub/animation_in_terminal/assets/frames
+2024-10-29 18:27:36 - animation.components.frame - INFO - Animation started
+2024-10-29 18:27:37 - animation.utils.sound - INFO - Sound system cleaned up
+2024-10-29 18:27:37 - src.animation.app - INFO - Application closed
+2024-10-29 18:28:05 - animation.utils.sound - INFO - Sound system initialized
+2024-10-29 18:28:05 - __main__ - INFO - Application started
+2024-10-29 18:28:05 - __main__ - INFO - Image path: /home/wojtek/Dokumenty/GitHub/animation_in_terminal/assets/frames
+2024-10-29 18:28:05 - animation.components.frame - INFO - Loaded 10 frames from /home/wojtek/Dokumenty/GitHub/animation_in_terminal/assets/frames
+2024-10-29 18:28:05 - animation.components.frame - INFO - Animation started
+2024-10-29 18:28:07 - animation.utils.sound - INFO - Sound system cleaned up
+2024-10-29 18:28:07 - __main__ - INFO - Application closed

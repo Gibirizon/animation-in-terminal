@@ -23,6 +23,10 @@ Terminal Animation Player to aplikacja konsolowa stworzona w jÄ™zyku Python, ktÃ
 
 ![kitty_terminal](./screenshots/kitty_terminal.png)
 
+### Windows terminal
+
+![windows_terminal](./screenshots/windows_terminal.png)
+
 ## Instalacja
 
 ### Wymagania systemowe

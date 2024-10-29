@@ -1,6 +1,6 @@
 import logging
 import os
-import pathlib
+from pathlib import Path
 
 import pygame
 
@@ -28,8 +28,9 @@ def cleanup_sound() -> None:
 def play_sound() -> None:
     """Play a sound effect for frame changes."""
     try:
-        current_dir = pathlib.Path(__file__).parent
-        sound_file = current_dir.parent / "resources" / "sounds" / "step.wav"
+        # Get the project root directory (where pyproject.toml is)
+        project_root = Path(__file__).parent.parent.parent.parent
+        sound_file = project_root / "assets" / "sounds" / "step.wav"
 
         if os.path.exists(sound_file):
             sound = pygame.mixer.Sound(sound_file)
