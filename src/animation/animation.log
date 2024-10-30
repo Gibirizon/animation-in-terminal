@@ -1,7 +1,0 @@
-2024-10-29 18:13:18 - animation.utils.sound - INFO - Sound system initialized
-2024-10-29 18:13:18 - animation.components.app - INFO - Application started
-2024-10-29 18:13:18 - animation.components.app - INFO - Image path: /home/wojtek/Dokumenty/GitHub/test/assets/frames
-2024-10-29 18:13:18 - animation.components.frame - INFO - Loaded 10 frames from /home/wojtek/Dokumenty/GitHub/test/assets/frames
-2024-10-29 18:13:18 - animation.components.frame - INFO - Animation started
-2024-10-29 18:13:21 - animation.utils.sound - INFO - Sound system cleaned up
-2024-10-29 18:13:21 - animation.components.app - INFO - Application closed

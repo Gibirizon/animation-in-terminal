@@ -1,129 +1,164 @@
+[![en](https://img.shields.io/badge/lang-en-red.svg)](./README.md)
+[![pl](https://img.shields.io/badge/lang-pl-white.svg)](./README-PL.md)
+
 # Terminal Animation Player
 
-## Spis treści
+## Table of Contents
 
-- [Opis projketu](#opis-projektu)
-- [Prezentacja projektu](#prezentacja-projektu)
-- [Instalacja](#instalacja)
+- [Project Description](#project-description)
+- [Project Preview](#project-preview)
+- [Installation](#installation)
   - [Windows](#windows)
   - [Linux](#linux)
-- [Instrukcja użytkownika](#instrukcja-użytkownika)
-- [Główne funkcjonalności](#główne-funkcjonalności)
-- [Rozwiązywanie problemów](#rozwiązywanie-problemów)
+- [User Guide](#user-guide)
+- [Main Features](#main-features)
+- [Troubleshooting](#troubleshooting)
 
-## Opis projektu
+## Project Description
 
-Terminal Animation Player to aplikacja konsolowa stworzona w języku Python, która umożliwia wyświetlanie animacji bezpośrednio w terminalu. Program wykorzystuje bibliotekę Textual do stworzenia interaktywnego interfejsu użytkownika w konsoli, wraz z obsługą dźwięku dzięki bibliotece Pygame. Animacje są wyświetlane w formie sekwencji obrazów PNG (64x64 piksele) z centralnym tytułem "ANIMATION" stworzonym przy pomocy ASCII art.
+Terminal Animation Player is a console application created in Python that enables displaying animations directly in the terminal. The program uses the Textual library to create an interactive console user interface, along with sound support through the Pygame library. Animations are displayed as sequences of PNG images (64x64 pixels) with a central "ANIMATION" title created using ASCII art.
 
-## Prezentacja projektu
+## Project Preview
 
-![video](./screenshots/video.gif)
+![video](./docs/screenshots/video.gif)
 
 ### Kitty terminal
 
-![kitty_terminal](./screenshots/kitty_terminal.png)
+![kitty_terminal](./docs/screenshots/kitty_terminal.png)
 
 ### Windows terminal
 
-![windows_terminal](./screenshots/windows_terminal.png)
+![windows_terminal](./docs/screenshots/windows_terminal.png)
 
-## Instalacja
+## Installation
 
-### Wymagania systemowe
+### System Requirements
 
-- Python 3.8 lub nowszy
-- Pip (menedżer pakietów Pythona)
+- Python 3.8 or newer
+- Pip (Python package manager)
 
-1. Instalacja Pythona:
+### Windows
 
-   - Pobierz i zainstaluj Python 3.8 lub nowszy ze strony [python.org](https://python.org)
-   - Podczas instalacji zaznacz opcję "Add Python to environment variables"
+1. Install Python:
 
-2. Otwórz wiersz poleceń (cmd) jako administrator
-3. Przejdź do katalogu z grą:
+   - Download and install Python 3.8 or newer from [python.org](https://python.org)
+   - During installation, check "Add Python to environment variables"
+
+2. Open Command Prompt (cmd) as administrator
+
+3. Clone the repository and navigate to the project directory:
 
 ```cmd
-cd ścieżka\do\katalogu\z\grą
+git clone <repository-url>
+cd animation-in-terminal
 ```
 
-4. Stwórz i aktywuj wirtualne środowisko:
+4. Create and activate virtual environment:
 
 ```cmd
 python -m venv venv
 venv\Scripts\activate
 ```
 
-5. Zainstaluj wymagane pakiety:
+5. Install the application:
+
+   Option 1 - Install required packages:
 
 ```cmd
 pip install -r requirements.txt
 ```
 
-### Linux (Debian/Ubuntu)
+Option 2 - Install as an editable package:
 
-1. Zainstaluj Pythona (jeśli nie jest zainstalowany):
+```cmd
+pip install -e .
+```
 
-- _Debian based distributions_ (na innych dystrybucjach należy użyć innego systemu zarządzania pakietami i odpowiadających pakietów)
+### Linux
+
+1. Install Python (if not installed):
+
+- _Debian based distributions_ (use appropriate package manager and packages for other distributions)
 
 ```bash
 sudo apt-get update
-sudo apt-get install python3 python3-pip python3-venv
+sudo apt-get install python3 python3-pip python3-venv git
 ```
 
-2. Przejdź do katalogu z grą:
+2. Clone the repository and navigate to the project directory:
 
 ```bash
-cd ścieżka/do/katalogu/z/grą
+git clone <repository-url>
+cd animation-in-terminal
 ```
 
-3. Stwórz i aktywuj wirtualne środowisko:
+3. Create and activate virtual environment:
 
 ```bash
 python3 -m venv venv
 source venv/bin/activate
 ```
 
-4. Zainstaluj wymagane pakiety:
+4. Install the application:
+
+   Option 1 - Install required packages:
 
 ```bash
 pip install -r requirements.txt
 ```
 
-## Instrukcja użytkownika
+Option 2 - Install as an editable package:
 
-### Uruchomienie gry
+```bash
+pip install -e .
+```
 
-1. Przejdź do katalogu z grą:
+## User Guide
+
+### Running the Application
+
+After installation, you can run the animation player in one of the following ways:
+
+1. If you installed using requirements.txt:
 
 ```bash
 python main.py
+# or
+python -m src.animation.app
 ```
 
-2. Sterowanie:
-   - `spacja` - Pauza/Wznowienie animacji
-   - `ctrl+q` - Wyjście z programu
+2. If you installed as a package (pip install -e .):
 
-## Główne funkcjonalności
+```bash
+animate
+```
 
-- Wyświetlanie animacji w konsoli:
-  - Wsparcie dla obrazów PNG 64x64
-  - Płynne odtwarzanie z częstotliwością 10 FPS
-- Obsługa dźwięku:
-  - Efekty dźwiękowe przy zmianie klatki
-  - Automatyczne zarządzanie systemem audio
-- System logowania:
-  - Zapis logów do pliku animation.log
-  - Monitorowanie stanu aplikacji
-  - Rejestrowanie błędów i zdarzeń
+### Controls:
 
-## Rozwiązywanie problemów
+- `space` - Pause/Resume animation
+- `ctrl+q` - Exit program
 
-1. Problem z dźwiękiem:
-   - Sprawdź czy plik frame_change.wav znajduje się w odpowiednim katalogu
-   - Upewnij się, że system audio działa poprawnie
-2. Problemy z wyświetlaniem:
-   - Sprawdź czy terminal obsługuje tryb kolorów 256
-   - Upewnij się, że rozmiar terminala jest wystarczający
-3. Błędy przy uruchamianiu:
-   - Sprawdź czy wszystkie zależności są zainstalowane
-   - Zweryfikuj poprawność ścieżek do plików
+## Main Features
+
+- Terminal animation display:
+  - Support for 64x64 PNG images
+  - Smooth playback at 10 FPS
+- Sound support:
+  - Sound effects on frame change
+  - Automatic audio system management
+- Logging system:
+  - Log saving to animation.log file
+  - Application state monitoring
+  - Error and event logging
+
+## Troubleshooting
+
+1. Sound issues:
+   - Check if step.wav file is in the correct directory (assets/sounds)
+   - Verify that system audio is working correctly
+2. Display issues:
+   - Check if terminal supports 256 color mode
+   - Ensure terminal size is sufficient
+3. Startup errors:
+   - Verify all dependencies are installed
+   - Check file paths are correct
