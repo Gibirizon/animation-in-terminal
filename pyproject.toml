@@ -18,3 +18,13 @@ dependencies = [
 
 [project.scripts]
 animate = "animation.app:main"
+
+[tool.setuptools.package-data]
+animation = [
+    "styles/*.tcss",
+    "assets/sounds/*.wav",
+    "assets/frames/*.png"
+]
+
+[tool.setuptools.packages.find]
+where = ["src"]

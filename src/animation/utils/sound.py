@@ -29,7 +29,7 @@ def play_sound() -> None:
     """Play a sound effect for frame changes."""
     try:
         # Get the project root directory (where pyproject.toml is)
-        project_root = Path(__file__).parent.parent.parent.parent
+        project_root = Path(__file__).parent.parent
         sound_file = project_root / "assets" / "sounds" / "step.wav"
 
         if os.path.exists(sound_file):

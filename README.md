@@ -63,7 +63,7 @@ venv\Scripts\activate
 5. Install the application:
 
 ```cmd
-pip install -e .
+pip install .
 ```
 
 ### Linux
@@ -94,7 +94,7 @@ source venv/bin/activate
 4. Install the application:
 
 ```bash
-pip install -e .
+pip install .
 ```
 
 ## User Guide
@@ -102,8 +102,6 @@ pip install -e .
 ### Running the Application
 
 After installation, you can run the animation player in one of the following ways:
-
-1. If you installed using requirements.txt:
 
 ```bash
 python main.py

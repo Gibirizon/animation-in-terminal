@@ -24,7 +24,7 @@ class AnimationApp(App):
 
     def get_frames_path(self) -> str:
         # Get the project root directory (where pyproject.toml is)
-        project_root = Path(__file__).parent.parent.parent
+        project_root = Path(__file__).parent
         # Navigate to resources/images
         frames_path = project_root / "assets" / "frames"
         logger.info(f"Image path: {frames_path}")
