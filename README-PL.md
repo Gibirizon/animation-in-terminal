@@ -62,14 +62,6 @@ venv\Scripts\activate
 
 5. Zainstaluj aplikację:
 
-   Opcja 1 - Zainstaluj wymagane pakiety:
-
-```cmd
-pip install -r requirements.txt
-```
-
-Opcja 2 - Zainstaluj jako pakiet edytowalny:
-
 ```cmd
 pip install -e .
 ```
@@ -101,14 +93,6 @@ source venv/bin/activate
 
 4. Zainstaluj aplikację:
 
-   Opcja 1 - Zainstaluj wymagane pakiety:
-
-```bash
-pip install -r requirements.txt
-```
-
-Opcja 2 - Zainstaluj jako pakiet edytowalny:
-
 ```bash
 pip install -e .
 ```
@@ -125,11 +109,7 @@ Po instalacji możesz uruchomić odtwarzacz animacji na jeden z następujących 
 python main.py
 # lub
 python -m src.animation.app
-```
-
-2. Jeśli zainstalowano jako pakiet (pip install -e .):
-
-```bash
+# or
 animate
 ```
 
